@@ -1,9 +1,9 @@
-from auth import Auth
+from auth import  Entrar
 from bootstrap import Init
 
 
 Init.init()
-Auth.login()
+Entrar.login()
 
 
 

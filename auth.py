@@ -1,4 +1,4 @@
-class Auth:
+class Entrar:
 
     def login():
         LOGIN_SQL = 'felipe'

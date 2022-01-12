@@ -1,26 +1,12 @@
-#Primeira coisa pra se fazer um software é organizar quais as funcões dele.
-#Vamos mapear o que um software de caixa eletronico teria, ok?
-################## 
-# A) Fazer login usando Agencia e Conta - Feito
-# B) Gerar um saldo randomico - Feito
-# c) Mostrar um menu contendo as seguintes ações - Feito
-# 1 - Consultar Saldo - Feito
-# 2 - Depositar Dinheiro - Feito
-# 3 - Fazer um pix - feito
-# 4 - Sacar dinheiro - feito 
-# 5 - Sair do caixa eletronico - feito
-
+# migrando estrutura pra classes
+from auth import Entrar 
 import random 
 import time
 
-saldo =random.randint(100,3000)
+from menu import Menu
 
-#Declarando
-def init():
-    print('=='* 12)
-    print('** BANCO R.Sullivan **')
-    print('=='* 12)
-  
+saldo =random.randint(100,3000)
+Entrar.login()
 
 #Declarando
 def login():
@@ -32,13 +18,7 @@ def login():
 
 
 def menu():
-   escolhaMenu = input('''
-    # 1 - Consultar Saldo
-    # 2 - Depositar Dinheiro
-    # 3 - Fazer um pix
-    # 4 - Sacar dinheiro
-    # 5 - Sair do caixa eletronico
-   ''')
+   escolhaMenu = Menu.mostrar()
    if escolhaMenu == '1':
        consultaSaldo()
 
@@ -120,9 +100,7 @@ def saircaixa():
         print('OBRIGADO VOLTE SEMPRE  !!!')
     elif sair == '2':
         return menu()
-        
-#Executar
-init()
+
 
 #Executar
 login()
