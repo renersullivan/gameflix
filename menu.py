@@ -1,4 +1,4 @@
-class Menu:
+class Choise:
 
   def  mostrar():
         escolhaMenu = input('''
@@ -10,4 +10,5 @@ class Menu:
     ''')
         return escolhaMenu
 
-       
+        
+

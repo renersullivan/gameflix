@@ -8,13 +8,6 @@ from menu import Menu
 saldo =random.randint(100,3000)
 Entrar.login()
 
-#Declarando
-def login():
-    nome    =input('Qual seu nome : ')
-    agencia =input('informe o numero da agencia : ') 
-    contas  =input('Digite o numero da sua conta sem digito : ') 
-    time.sleep(2)
-    print('\033[1;32m!!  LOGADO COM SUCESSO  !!\033[m')
 
 
 def menu():
@@ -43,7 +36,7 @@ def depositarDinheiro():
 
 def consultaSaldo():
     print('seu saldo é de R$', saldo,'reais...')
-    return menu()
+    
 
 def pix():
 
