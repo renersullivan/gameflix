@@ -101,4 +101,3 @@ def saircaixa():
 menu()
 
 senhas()
-
