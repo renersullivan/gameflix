@@ -95,8 +95,7 @@ def saircaixa():
         return menu()
 
 
-#Executar
-login()
+
 
 #Executar
 menu()

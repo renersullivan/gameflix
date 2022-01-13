@@ -1,7 +1,10 @@
+from ast import Return
+
+
 class Entrar:
 
     def login():
-        LOGIN_SQL = 'felipe'
+        LOGIN_SQL = 'rener'
         SENHA_SQL = '1234'
 
         login = ''
@@ -14,6 +17,6 @@ class Entrar:
                 print('Logou com sucesso')
             else:
                 print('Login ou Senha nao encontrado, tente novamente')
-       
+                return Entrar.login()
        
     
