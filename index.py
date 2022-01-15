@@ -1,18 +1,17 @@
-from auth import  Entrar
+from auth import Authentication
 from bootstrap import Init
 from menu import Choise
-from  extrato import Dinheiro
-from pix import Pix
-from sair import Sair
+from conta import Account
+from transferencia.pix import Pix
 
 
 Init.init()
-Entrar.login()
-
-
+usuario = Account()
+auth = Authentication(usuario)
 escolhaMenu = Choise.mostrar()
 
 if escolhaMenu == '1':
-    Dinheiro.consultaDinheiro()
-Pix.pix()
-Sair.saircaixa()
+    usuario.getSaldo()
+
+
+auth.logout()

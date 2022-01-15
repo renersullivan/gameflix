@@ -1,6 +1,7 @@
 class Choise:
 
-  def  mostrar():
+    @staticmethod
+    def mostrar() -> object:
         escolhaMenu = input('''
         # 1 - Consultar Saldo
         # 2 - Depositar Dinheiro
@@ -9,6 +10,3 @@ class Choise:
         # 5 - Sair do caixa eletronico
     ''')
         return escolhaMenu
-
-        
-
