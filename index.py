@@ -4,7 +4,6 @@ from menu import Choise
 from conta import Account
 from transferencia.pix import Pix
 
-
 Init.init()
 usuario = Account()
 auth = Authentication(usuario)
