@@ -19,7 +19,7 @@ class Authentication:
             print('Logou com sucesso')
         else:
             print('Login ou Senha nao encontrado, tente novamente')
-            return AuthenticationClass.login()
+            return Authentication.login()
 
     def logout(self):
         sair = input('''Deseja realmente sair do caixa etronico ? :
@@ -30,7 +30,7 @@ class Authentication:
         # : ''')
         if sair == '1':
             print('Saindo do caixa...')
-            print(self.conta.nome,' deslogou com sucesso!!!')
+            print(self.conta.nome, ' deslogou com sucesso!!!')
 
         elif sair == '2':
             return ()
