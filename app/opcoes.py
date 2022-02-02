@@ -1,5 +1,4 @@
 from random import randint
-from menu import Setings
 
 
 class Painel:
@@ -11,10 +10,11 @@ class Painel:
         escolha_dep = int(input('Deseja depositar quanto?'))
         if escolha_dep > saldo:
             print('\033[1;31m ****** SALDO INSULFICIENTE !! ******\033[m')
-            return Setings.escolha_menu()
+            return
+
         elif escolha_dep <= saldo:
             print(escolha_dep, ' depositado com sucesso!!!')
-            return Setings.escolha_menu()()
+            return
         else:
             print('Valor inválido digite um valor numerico !!')
             return Painel.depositarDinheiro()
@@ -22,6 +22,7 @@ class Painel:
     def consultaSaldo():
         saldo = randint(100, 2000)
         print('seu saldo é de R$', saldo, 'reais...')
+        return Painel.saircaixa()
 
     def senhas():
         pws = input('Digite sua senha para confirmar a transacao : ')
@@ -33,7 +34,7 @@ class Painel:
         else:
             print('\033[1;32m!!!! transferencia feita com sucesso !!!\033[m')
 
-            return Setings.escolha_menu()
+            return
 
     def sacarDinheiro():
         saldo = randint(100, 2000)
@@ -41,7 +42,7 @@ class Painel:
         saq = int(input('Digite o valor que deseja sacar :'))
         if saq > saldo:
             print('\033[1;31m ****** SALDO INSULFICIENTE !! ******\033[m')
-            return Setings.escolha_menu()
+            return
         elif saq <= saldo:
             print(
                 '\033[1;32mSAQUE REALIZADO COM SUCESSSO \033[mNO VALOR DE {} REIAS'.format(saq))
@@ -55,4 +56,4 @@ class Painel:
         if sair == '1':
             print('OBRIGADO VOLTE SEMPRE  !!!')
         elif sair == '2':
-            return Setings.escolha_menu()
+            return 459

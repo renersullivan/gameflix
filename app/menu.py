@@ -1,7 +1,7 @@
 from opcoes import Painel
 
 
-class Setings:
+class Settings:
 
     def escolha_menu():
         escolhaMenu = input('''
@@ -14,8 +14,8 @@ class Setings:
            ## :''')
 
         if escolhaMenu == '1':
-           Painel.consultaSaldo()
-
+            return Painel.consultaSaldo()
+                      
         elif escolhaMenu == '2':
             Painel.depositarDinheiro()
         elif escolhaMenu == '3':
@@ -23,4 +23,4 @@ class Setings:
         elif escolhaMenu == '4':
             Painel.sacarDinheiro()
         elif escolhaMenu == '5':
-            Painel.saircaixa()
+            return Painel.saircaixa()
