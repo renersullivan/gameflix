@@ -21,6 +21,6 @@ class Settings:
         elif escolhaMenu == '3':
             Painel.pix()
         elif escolhaMenu == '4':
-            Painel.sacarDinheiro()
+            return Painel.sacarDinheiro()
         elif escolhaMenu == '5':
             return Painel.saircaixa()

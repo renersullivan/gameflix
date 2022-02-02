@@ -33,7 +33,6 @@ class Painel:
             return Painel.senhas()
         else:
             print('\033[1;32m!!!! transferencia feita com sucesso !!!\033[m')
-
             return
 
     def sacarDinheiro():
@@ -42,18 +41,20 @@ class Painel:
         saq = int(input('Digite o valor que deseja sacar :'))
         if saq > saldo:
             print('\033[1;31m ****** SALDO INSULFICIENTE !! ******\033[m')
-            return
+            return Painel.saircaixa()
         elif saq <= saldo:
             print(
                 '\033[1;32mSAQUE REALIZADO COM SUCESSSO \033[mNO VALOR DE {} REIAS'.format(saq))
+            return Painel.saircaixa()
 
     def saircaixa():
-        sair = input('''Deseja realmente sair do caixa etronico ? :
+        sair = input('''Gostaria de fazer o que agora ? :
         # 1 para sair 
         # 2 para retornar ao menu 
         # 
         # : ''')
         if sair == '1':
             print('OBRIGADO VOLTE SEMPRE  !!!')
+            return 9999
         elif sair == '2':
             return 459

@@ -4,7 +4,8 @@ from menu import Settings
 
 Iniciar.init()
 retorno = Settings.escolha_menu()
-print(retorno)
+print('FORA DO WHILE',retorno)
 
 while retorno == 459:
-    Settings.escolha_menu()
+   retorno = Settings.escolha_menu()
+   print('DENTRO DO WHILE:',retorno)
