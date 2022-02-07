@@ -89,5 +89,6 @@ class Painel:
                 f'O valor {valor} foi depositado corretamente no CPF : {cpf}')
             return Painel.saircaixa()
         else:
-            print('A opção escolhida nao eh valida tente novamente !!')
+            print(
+                '\33[1;31mA opção escolhida nao eh valida tente novamente !!\33[m')
             return Painel.pix()
