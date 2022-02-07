@@ -15,11 +15,11 @@ class Settings:
 
         if escolhaMenu == '1':
             return Painel.consultaSaldo()
-                      
+
         elif escolhaMenu == '2':
             Painel.depositarDinheiro()
         elif escolhaMenu == '3':
-            Painel.pix()
+            return Painel.pix()
         elif escolhaMenu == '4':
             return Painel.sacarDinheiro()
         elif escolhaMenu == '5':

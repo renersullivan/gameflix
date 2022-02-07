@@ -58,3 +58,36 @@ class Painel:
             return 9999
         elif sair == '2':
             return 459
+
+    def pix():
+        transferencia = input('''escolha chave pix  para fazer a transferencia 
+        # 1 para email :
+        # 2 para numero de celular :
+        # 3 para CPF 
+        #---> :''')
+        if transferencia == '1':
+            email = input('''Digite o email para qual deseja relaizar o PIX:
+             # -> :''')
+            valor = input('Agora digite o valor que deseja transferir :')
+            print(
+                f'O valor {valor} foi depositado corretamente no email {email}')
+            return Painel.saircaixa()
+
+        elif transferencia == '2':
+            cel = input('''Digite o numero de celular para qual deseja relaizar o PIX:
+             # -> :''')
+            valor = input('Agora digite o valor que deseja transferir :')
+            print(
+                f'O valor {valor} foi depositado corretamente na chave pix : {cel}')
+            return Painel.saircaixa()
+
+        elif transferencia == '3':
+            cpf = input('''Digite o CPF para qual deseja relaizar o PIX:
+             # -> :''')
+            valor = input('Agora digite o valor que deseja transferir :')
+            print(
+                f'O valor {valor} foi depositado corretamente no CPF : {cpf}')
+            return Painel.saircaixa()
+        else:
+            print('A opção escolhida nao eh valida tente novamente !!')
+            return Painel.pix()
