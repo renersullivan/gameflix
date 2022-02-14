@@ -48,7 +48,7 @@ def buscar_usuario(login, senha):
 
 
 while True:
-    system('cls')
+
     opcao = exibir_menu()
 
     if opcao == 1:
@@ -75,9 +75,11 @@ while True:
         if user == True:
             print(Fore.CYAN + 'Login realizado com sucesso !!')
             sleep(1)
+            break
 
         else:
-            print(Fore.RED+'Voçê deve ter digitado seu nome de usuario ou senha  errado.\n Por favor verifique e digite novamente !!')
+            print(Fore.RED+'''Voçê deve ter digitado seu nome de usuario
+                  ou senha  errado.\n Por favor verifique e escolha uma nova op !!''')
     else:
 
         print(Fore.LIGHTMAGENTA_EX + 'Good Bay !!')
