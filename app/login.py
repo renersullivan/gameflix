@@ -1,10 +1,13 @@
 from os import system
 from colorama import init, Fore, Back, Style
 from getpass import getpass
-from stdiomask import *
+import stdiomask
 from time import sleep
 
-init(autoreset=True)
+
+class Login_cadastro:
+
+    init(autoreset=True)
 
 
 def exibir_menu():
@@ -62,7 +65,8 @@ while True:
         else:
             with open('usuarios.txt', 'r+', encoding='utf-8', newline='') as arquivo:
                 arquivo.writelines(f'{login} {senha}\n')
-            print(Fore.CYAN + 'Cadastro sprovado !!')
+            print(Fore.CYAN + 'Cadastro aprovado !!')
+
             exit()
     elif opcao == 2:
         # fazer o login do usuario
@@ -71,6 +75,7 @@ while True:
         if user == True:
             print(Fore.CYAN + 'Login realizado com sucesso !!')
             sleep(1)
+
         else:
             print(Fore.RED+'Voçê deve ter digitado seu nome de usuario ou senha  errado.\n Por favor verifique e digite novamente !!')
     else:

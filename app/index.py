@@ -1,8 +1,11 @@
 from auth import Iniciar
 from menu import Settings
-
+from login import Login_cadastro
 
 Iniciar.init()
+
+Login_cadastro.exibir_menu()
+
 retorno = Settings.escolha_menu()
 print('FORA DO WHILE',retorno)
 
