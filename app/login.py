@@ -75,7 +75,7 @@ while True:
         if user == True:
             print(Fore.CYAN + 'Login realizado com sucesso !!')
             sleep(1)
-            break
+             
 
         else:
             print(Fore.RED+'''Voçê deve ter digitado seu nome de usuario
