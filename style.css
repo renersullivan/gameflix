@@ -4,15 +4,14 @@ body{
 
 .button{
     /*Elemento*/
-    height:20px;
-    width:50px;
-    background-color: black;
-    border-radius: 3px;
-    transition: background-color 300ms ;
+    height:50px;
+    width:200px;
+    background-color: red;
+    border-radius: 1px;
 
     /*Texto*/
-    color:white;
-    font-size:6px;
+    color:black;
+    font-size:10px;
     font-family: poppins;
 
 
@@ -23,13 +22,15 @@ body{
 }
 
 .button:hover{
-    background-color: blue;
+    background-color: pink;
     transition: background-color 100ms;
     
 }
 
-
-
+.button:active{
+    background-color: silver;
+    transition: background-color 100ms;
+}
 
 
 .card{
