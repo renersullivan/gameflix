@@ -1,10 +1,15 @@
-a{
-    font-size:22px;
-    color:red;
-    display: block;
+.card{
+    height:100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: red;
+    border-radius:10px;
+    transition: all 200ms;
+    transform: scale(1);
 }
 
-a.especial{
-    color:brown;
-    font-size:32px
+.card:hover{
+   background-color: blue;
+   transition: all 200ms; /* quem vou animar ? ,  quanto tempo ? */
+   transform: scale(1.1);
 }
