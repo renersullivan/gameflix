@@ -1,3 +1,37 @@
+body{
+    background-color: rgb(207, 207, 207);
+}
+
+.button{
+    /*Elemento*/
+    height:20px;
+    width:50px;
+    background-color: black;
+    border-radius: 3px;
+    transition: background-color 300ms ;
+
+    /*Texto*/
+    color:white;
+    font-size:6px;
+    font-family: poppins;
+
+
+    /*Flex*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover{
+    background-color: blue;
+    transition: background-color 100ms;
+    
+}
+
+
+
+
+
 .card{
     height:100px;
     width: 100px;
