@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(14, 13, 13);
+}
+
+.conteiner {
+  display: inline-block;
+  justify-content: center;
+  background-color: silver;
+  width: 350px;
+  height: 150px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 8px rgba(174, 22, 22);
+}
+
+.btn-1 {
+  background-color: rgb(2, 212, 177);
+  border-radius: 15px;
+  padding: 7px;
+  width: 70px;
+  align-items: center;
+
+  margin-top: 40px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn-1:hover {
+  background-color: rgb(2, 107, 90);
+
+  padding: 7px;
+  width: 70px;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.conteudo {
+  text-align: center;
+}
