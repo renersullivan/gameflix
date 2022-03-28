@@ -3,10 +3,10 @@ body {
 }
 
 .conteiner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  display: flex; /*trasformei em flex*/
+  justify-content: center; /* centralizei verticalmente */
+  align-items: center; /* centralizei horizontalmente */
+  flex-direction: column; /* Tirei eles da mesma linha e separei as duas divs em linhas diferentes */
 
   background-color: rgb(192,192,192);
   width: 350px;
