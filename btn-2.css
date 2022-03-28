@@ -3,9 +3,9 @@ body {
 }
 
 .conteiner {
-  display: inline-block;
+  display: inline-flex;
   justify-content: center;
-  background-color: silver;
+  background-color: rgb(192,192,192);
   width: 350px;
   height: 150px;
   border-radius: 4px;
@@ -16,16 +16,15 @@ body {
   background-color: rgb(2, 212, 177);
   border-radius: 15px;
   padding: 7px;
-  width: 70px;
+  width: auto;
   align-items: center;
-
-  margin-top: 40px;
+   margin-top: 40px;
   cursor: pointer;
   transition: all 0.3s;
+  display: inline-block;
 }
 .btn-1:hover {
   background-color: rgb(2, 107, 90);
-
   padding: 7px;
   width: 70px;
   align-items: center;
