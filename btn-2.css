@@ -3,8 +3,11 @@ body {
 }
 
 .conteiner {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
   background-color: rgb(192,192,192);
   width: 350px;
   height: 150px;
