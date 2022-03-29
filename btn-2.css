@@ -7,12 +7,12 @@ body {
   justify-content: center; /* centralizei verticalmente */
   align-items: center; /* centralizei horizontalmente */
   flex-direction: column; /* Tirei eles da mesma linha e separei as duas divs em linhas diferentes */
-
-  background-color: rgb(192,192,192);
+  background-color: rgb(192, 192, 192);
   width: 350px;
   height: 150px;
   border-radius: 4px;
-  box-shadow: 3px 3px 8px rgba(174, 22, 22);
+  box-shadow: 5px 5px 5px 5px rgb(2, 212, 177);
+  margin-bottom: 40px;
 }
 
 .btn-1 {
@@ -21,7 +21,7 @@ body {
   padding: 7px;
   width: auto;
   align-items: center;
-   margin-top: 40px;
+  margin-top: 40px;
   cursor: pointer;
   transition: all 0.3s;
   display: inline-block;
@@ -38,4 +38,90 @@ body {
 }
 .conteudo {
   text-align: center;
+}
+.card {
+  border: 2px solid rgb(0, 0, 255) auto;
+  text-align: center;
+}
+.box-pai {
+  background-color: rgb(180, 178, 178);
+  width: 352px;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px 5px rgb(2, 212, 177);
+}
+
+.btn-Alana {
+  background-color: rgb(230, 16, 219);
+  align-items: center;
+  border-radius: 4px;
+  padding: 7px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: inline-block;
+  justify-content: center;
+  box-shadow: 3px 3px 8px rgb(61, 1, 59);
+}
+.btn-Alana:hover {
+  background-color: rgb(238, 224, 237);
+  color: rgb(245, 10, 237);
+  align-items: center;
+  border-radius: 4px;
+  padding: 7px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 7px 7px 5px 5px rgb(61, 1, 59);
+}
+.btn-Emilly {
+  background-color: rgb(61, 1, 70);
+  border-radius: 6px;
+  margin-top: 40px;
+  margin-left: 10px;
+  padding: 7px;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.btn-Emilly:hover {
+  color: rgb(61, 1, 70);
+  background-color: rgb(253, 251, 253);
+  border-radius: 6px;
+  margin-top: 40px;
+  padding: 7px;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s;
+  box-shadow: 5px 5px 5px 5px rgb(61, 1, 70);
+}
+.btn-Compartilhar {
+  align-items: center;
+  display: inline-block;
+  background-color: rgb(18, 18, 241);
+  color: rgb(255, 255, 255);
+  padding: 7px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: Georgia;
+  cursor: pointer;
+}
+.icon {
+  fill: rgba(255, 255, 255);
+  height: 13px;
+  width: 20px;
+  transition: all 0.2s;
+}
+.btn-comprar {
+  display: inline-block;
+  padding: 7px;
+  background-color: rgb(204, 50, 3);
+  color: rgb(247, 245, 245);
+  width: 115px;
+  height: 21px;
+  cursor: pointer;
 }
