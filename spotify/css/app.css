@@ -41,7 +41,7 @@
   font-size: 13px;
 }
 .menu-item:hover {
-  background-color: black;
+  background-color: rgb(14, 13, 13);
   color: white;
 }
 .menu-item svg {
@@ -56,10 +56,14 @@
   font-size: 10px;
 }
 #divBusca {
-  background-color: #f5fcfc;
-
-  border-radius: 15px;
+  background-color: #ffffff;
+  border: 1px solid rgb(243, 228, 228, 1);
+  border-radius: 17px;
   width: 283px;
+  height: 38px;
+  display: flex;
+  align-content: center;
+  margin: 40px 20px;
 }
 
 #txtBusca {
@@ -67,8 +71,43 @@
   background-color: transparent;
   padding-left: 5px;
   font-style: italic;
-  font-size: 18px;
+  font-size: 11px;
   border: none;
   height: 32px;
   width: 260px;
+}
+.btns {
+  margin: 40px 20px;
+}
+.top {
+  display: inline-block;
+  justify-content: center;
+
+  font-size: 11px;
+  margin: 40px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  width: 29px;
+  text-align: center;
+}
+.back {
+  border-radius: 50%;
+  background-color: #acacac;
+  color: black;
+}
+.back:hover {
+  background-color: #ddd;
+  color: black;
+}
+.next {
+  border-radius: 50%;
+  background-color: #acacac;
+  color: rgb(8, 8, 8);
+}
+.next:hover {
+  background-color: #ddd;
+  color: rgb(8, 8, 8);
 }
