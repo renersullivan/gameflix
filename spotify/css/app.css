@@ -98,7 +98,8 @@
   display: flex;
   font-size: 11px;
   margin-bottom: 40px;
-  border:1px solid brown
+  border:1px solid brown;
+  justify-content: space-between;
 }
 
 a {
