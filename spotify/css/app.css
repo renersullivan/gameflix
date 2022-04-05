@@ -79,13 +79,13 @@
 .btns {
   margin: 40px 20px;
 }
-.top {
-  display: inline-block;
-  justify-content: center;
 
+.top {
+  display: flex;
   font-size: 11px;
-  margin: 40px;
+  margin-bottom: 40px;
 }
+
 a {
   text-decoration: none;
   display: inline-block;
