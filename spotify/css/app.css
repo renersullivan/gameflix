@@ -162,8 +162,11 @@ a {
   justify-content: space-between;
   align-items: center;
   padding-left: 10px;
-  background-image: url("/home/rener/Dev/gameflix/spotify/images/download2.jpeg");
-  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1648471533584-e7c5040a5db2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto, contain, 100%;
+
 }
 .sub-title-Ontop {
   border: 1px solid pink;
