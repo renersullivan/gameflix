@@ -189,18 +189,28 @@ a {
 .sub-title-Ontop {
   border: 1px solid pink;
   height: 92px;
-  width: 107px;
+  width: 124px;
   font-size: 20px;
   margin-bottom: 30px;
 }
 .artist {
   border: 1px solid yellowgreen;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 12px;
+  color: silver;
 }
 .Monthly {
-  border: 1px solid powderblue;
   color: white;
+  display: block;
+  justify-content: center;
+  margin-top: 123px;
+  margin-right: 30px;
+  opacity: 20;
+}
+.number {
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 .btns-artist {
   display: flex;
