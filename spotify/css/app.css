@@ -242,6 +242,7 @@ a {
   justify-content: space-between;
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 25px;
 }
 .show {
   color: #7e7c7c;
@@ -249,4 +250,29 @@ a {
   display: flex;
   justify-content: center;
   align-items: end;
+}
+.music-title {
+  color: #7e7c7c;
+  font-size: 11px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.music-01 {
+  color: #545353;
+  font-size: 11px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.music-01:hover {
+  background-color: white;
+  color: black;
+  font-size: 11px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
 }
