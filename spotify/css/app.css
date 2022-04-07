@@ -166,16 +166,41 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto, contain, 100%;
-
+  position: relative;
+  border-radius: 17px;
+}
+.banner-left {
+  z-index: 1;
+  padding: inherit;
+}
+.cover-color {
+  height: 100%;
+  width: 50%;
+  background: linear-gradient(
+    90deg,
+    rgba(246, 246, 246, 1) 24%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
 }
 .sub-title-Ontop {
   border: 1px solid pink;
+  height: 92px;
+  width: 107px;
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 .artist {
   border: 1px solid yellowgreen;
+  margin-bottom: 20px;
+  font-size: 14px;
 }
 .Monthly {
   border: 1px solid powderblue;
+  color: white;
 }
 .btns-artist {
   display: flex;
@@ -183,13 +208,21 @@ a {
   border: 1px solid black;
 }
 .play {
-  border-radius: 50%;
+  border-radius: 8px;
   color: white;
-  background-color: midnightblue;
+  background-color: #05111c;
+  width: 43px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .follow {
-  border: 1px solid midnightblue;
-  border-radius: 50%;
-  color: midnightblue;
-  background-color: white;
+  border: 1px solid #05111c;
+  border-radius: 8px;
+  color: #05111c;
+  background-color: transparent;
+  width: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
