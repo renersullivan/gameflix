@@ -258,6 +258,8 @@ a {
   justify-content: space-around;
   flex-direction: row;
 }
+.musicas {
+}
 .music-01 {
   color: #545353;
   font-size: 11px;
@@ -275,4 +277,6 @@ a {
   flex-direction: row;
   align-items: center;
   cursor: pointer;
+  border-radius: 8px;
+  padding: 10px;
 }
