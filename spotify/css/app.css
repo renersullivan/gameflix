@@ -97,7 +97,7 @@
   display: flex;
   font-size: 11px;
   margin-bottom: 40px;
-  border: 1px solid brown;
+
   justify-content: space-between;
   align-items: center;
   padding-left: 10px;
@@ -111,13 +111,11 @@ a {
   text-align: center;
 }
 .top {
-  border: 1px solid red;
   display: flex;
   height: 100px;
 }
 
 .title-banner {
-  border: 1px solid royalblue;
   display: flex;
   align-items: center;
 }
@@ -200,50 +198,53 @@ a {
   padding: 10px;
 }
 .play {
-  border-radius: 8px;
+  border-radius: 15px;
   color: white;
   background-color: #05111c;
-  width: 43px;
+  width: 74px;
+  height: 30px;
   align-items: center;
   justify-content: center;
   display: flex;
   transition: all 0.3s;
 }
 .play:hover {
-  border-radius: 8px;
-  color: #05111c;
-  background-color: white;
-  width: 43px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  padding-top: 5px;
-  transition: all 0.3s;
-}
-.follow {
   border: 1px solid #05111c;
-  border-radius: 8px;
+  border-radius: 15px;
   color: #05111c;
   background-color: transparent;
-  width: 51px;
-  display: flex;
-  justify-content: center;
+  width: 74px;
+  height: 30px;
   align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: all 0.3s;
+}
+
+.follow {
+  border: 1px solid #05111c;
+  border-radius: 15px;
+  color: #05111c;
+  background-color: transparent;
+  width: 74px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
   transition: all 0.3s;
 }
 .follow:hover {
-  border-radius: 8px;
+  border-radius: 15px;
   color: white;
   background-color: #05111c;
-  width: 51px;
+  width: 74px;
+  height: 30px;
   align-items: center;
   justify-content: center;
   display: flex;
-  padding-top: 5px;
   transition: all 0.3s;
 }
 .Playlist {
-  border: #05111c 1px solid;
   display: flex;
   justify-content: space-between;
   padding-left: 10px;
@@ -265,11 +266,17 @@ a {
   justify-content: space-around;
   overflow: hidden;
 }
-.musicas {
-  border: 1px solid red;
-}
-.music-01 {
+.music-title > div {
+  display: flex;
+  width: 20%;
   height: 49px;
+
+  justify-content: space-around;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.music-01 {
   color: #545353;
   font-size: 11px;
   display: flex;
@@ -277,6 +284,15 @@ a {
   flex-direction: row;
   align-items: center;
   transition: all 0.3s;
+}
+.music-01 > div {
+  display: flex;
+  width: 20%;
+  height: 49px;
+
+  justify-content: space-around;
+  flex-direction: column;
+  overflow: hidden;
 }
 .music-01:hover {
   height: 49px;
@@ -289,6 +305,6 @@ a {
   align-items: center;
   cursor: pointer;
   border-radius: 8px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: -11px 12px 2px 1px rgb(0 0 0 / 7%);
   transition: all 0.3s;
 }
