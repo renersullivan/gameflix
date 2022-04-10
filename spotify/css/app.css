@@ -29,7 +29,7 @@
   display: flex;
   width: 100%;
   flex-direction: column;
-  padding: 10px;
+  padding: 40px;
 }
 
 .logo {
@@ -316,4 +316,22 @@ a {
   border-radius: 8px;
   box-shadow: -11px 12px 2px 1px rgb(0 0 0 / 7%);
   transition: all 0.3s;
+  padding:5px 10px;
+}
+
+.music-01:hover .icon-sound{
+  display: flex;
+}
+
+.icon-sound{
+  display: none;
+}
+
+
+.icon-sound img{
+ width:20px;
+}
+
+.music-01:hover .music-number {
+  display: none;
 }
