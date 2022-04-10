@@ -324,9 +324,8 @@ a {
 }
 
 .icon-sound{
-  display: none;
+  display: none; /*Escondido*/
 }
-
 
 .icon-sound img{
  width:20px;
