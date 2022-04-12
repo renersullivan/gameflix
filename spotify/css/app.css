@@ -16,6 +16,50 @@
   height: 750px;
   overflow: hidden;
 }
+.tres-btn {
+  border: 1px solid black;
+  display: flex;
+  margin: 20px 20px;
+}
+.btn-red {
+  color: red;
+  border: 1px solid rgb(170, 6, 6);
+  background-color: red;
+  border-radius: 100%;
+  width: 13px;
+  height: 13px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.btn-yellow {
+  color: rgb(241 241 56);
+  border: 1px solid rgb(229 229 0);
+  background-color: rgb(241 241 56);
+  border-radius: 100%;
+  width: 13px;
+  height: 13px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.btn-green {
+  color: green;
+  border: 1px solid rgb(2, 83, 2);
+  background-color: green;
+  border-radius: 100%;
+  width: 13px;
+  height: 13px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 10px;
+  cursor: pointer;
+}
 
 @media (max-width: 600px) {
   .container-left {
