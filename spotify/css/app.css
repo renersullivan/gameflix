@@ -15,11 +15,11 @@
   max-width: 270px;
   height: 750px;
   overflow: hidden;
+  margin-top: 35px;
 }
 .tres-btn {
-  border: 1px solid black;
   display: flex;
-  margin: 20px 20px;
+  margin: 19px 20px;
 }
 .btn-red {
   color: red;
@@ -66,14 +66,19 @@
     display: none;
   }
 }
-
+.menu-hamburguer {
+  width: 20px;
+  height: 20px;
+  margin-left: 115px;
+  opacity: 0.5;
+}
 .container-right {
   height: 750px;
   background-color: rgba(157, 149, 206, 0.199);
   display: flex;
   width: 100%;
   flex-direction: column;
-  padding: 40px;
+  padding: 21px 19px;
 }
 
 .logo {
