@@ -81,9 +81,16 @@
 .lupa img {
   position: relative;
   margin-left: 26px;
-  width: 14px;
-  height: 14px;
-  color: rgb(243, 228, 228, 1);
+  width: 16px;
+  height: 16px;
+}
+.back svg {
+  width: 20px;
+  height: 20px;
+}
+.next svg {
+  width: 20px;
+  height: 20px;
 }
 
 .lupa {
@@ -105,9 +112,11 @@ txtBusca {
 .btns {
   display: flex;
   align-items: center;
-  padding-left: 20px;
+  padding-left: 9px;
   width: 132px;
-  justify-content: space-between;
+}
+.back {
+  margin-right: 27px;
 }
 
 .banner {
@@ -344,4 +353,8 @@ a {
 
 .music-01:hover .music-number {
   display: none;
+}
+#Path_1 {
+  width: 25px;
+  height: 25px;
 }
