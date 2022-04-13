@@ -97,6 +97,7 @@
   padding-left: 10px;
   margin: 10px 0;
   font-size: 13px;
+  cursor: pointer;
 }
 .menu-item:hover {
   background-color: #05111c;
@@ -283,6 +284,7 @@ a {
   justify-content: center;
   display: flex;
   transition: all 0.3s;
+  cursor: pointer;
 }
 .play:hover {
   border: 1px solid #05111c;
@@ -295,6 +297,7 @@ a {
   justify-content: center;
   display: flex;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .follow {
@@ -308,6 +311,7 @@ a {
   justify-content: center;
   display: flex;
   transition: all 0.3s;
+  cursor: pointer;
 }
 .follow:hover {
   border-radius: 15px;
@@ -319,6 +323,7 @@ a {
   justify-content: center;
   display: flex;
   transition: all 0.3s;
+  cursor: pointer;
 }
 .Playlist {
   display: flex;
@@ -406,4 +411,5 @@ a {
 #Path_1 {
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
