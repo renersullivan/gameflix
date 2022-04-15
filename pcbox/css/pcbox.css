@@ -29,20 +29,28 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  font-size: 20px;
   color: rgb(153, 150, 150);
   fill: rgb(153, 150, 150);
   height: 47px;
   width: 100%;
+  transition: all 0.3s;
 }
+
 .menu-itens:hover {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: rgb(153, 150, 150);
-  color: rgb(252, 248, 248);
-  fill: rgb(71, 218, 137);
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: rgb(34 32 34);
+  color: rgb(255, 255, 255);
+  fill: rgb(89 183 155);
+  font-weight: bolder;
+
   height: 47px;
   width: 100%;
+  transition: all 0.3s;
 }
 .menu-itens svg {
   width: 20px;
