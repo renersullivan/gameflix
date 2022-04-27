@@ -10,6 +10,22 @@ body {
   max-width: 100%;
   min-width: 320px;
   display: flex;
+  flex-direction: column;
+}
+.container-top{
+  border: 1px solid silver;
+  display: flex;
+  width:100%;
+  height:30px;
+  color:white;
+  align-items:center;
+  justify-content:center;
+
+}
+.box-leftright{
+  justify-content:center;
+  display: flex;
+  flex-direction:row;
 }
 
 .container-left {
@@ -28,6 +44,7 @@ body {
   flex-direction: column;
   align-items: baseline;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .menu-itens {
@@ -67,37 +84,38 @@ body {
   border: 1px solid red;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: stretch;
   font-size: 20px;
   color: rgb(153, 150, 150);
-
   flex-direction: column;
   width: 100%;
   transition: all 0.3s;
   cursor: pointer;
+ 
+
 }
 .sub-menu :hover {
   border: 1px solid red;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: stretch;
   font-size: 20px;
   color: rgb(255, 245, 245);
   flex-direction: column;
   width: 100%;
   transition: all 0.3s;
   cursor: pointer;
-  margin-left: 32px;
+ 
 }
 
 .sub-title {
   border: 1px solid brown;
   align-items: center;
   justify-content: flex-start;
+  margin-left: 41px;
+
 }
-.sub-menu .sub-title {
-  margin-left: 0;
-}
+
 .more {
   display: flex;
   width: 92%;
