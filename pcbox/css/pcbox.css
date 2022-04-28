@@ -6,6 +6,7 @@
 body {
   font-family: lato;
   background-color: rgb(5, 5, 5);
+  font-size: 15px;
 }
 .container-geral {
   max-width: 100%;
@@ -18,19 +19,30 @@ body {
   display: flex;
   width: 100%;
   height: 30px;
-  color: white;
   align-items: center;
   justify-content: space-between;
   padding: 3px 5px;
-
 }
+.container-top svg{
+  fill: rgb(153, 150, 150);
+  margin-right: 15px;
+  font-size: 15px;
+}
+.icons-left-top{
+  border: 1px solid red;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  color:rgb(153, 150, 150);
+  padding: 8px 26px;
+}
+
 .box-leftright{
   justify-content:center;
   display: flex;
   flex-direction:row;
 }
 .menu-itens-esconder{
-  border: 1px solid beige;
   display: flex;
   flex-direction: column;
   width: 100%;
