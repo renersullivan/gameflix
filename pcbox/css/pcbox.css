@@ -4,6 +4,7 @@
   
 }
 body {
+  font-family: lato;
   background-color: rgb(5, 5, 5);
 }
 .container-geral {
@@ -15,11 +16,12 @@ body {
 .container-top{
   border: 1px solid silver;
   display: flex;
-  width:100%;
-  height:30px;
-  color:white;
-  align-items:center;
-  justify-content:center;
+  width: 100%;
+  height: 30px;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 5px;
 
 }
 .box-leftright{
@@ -32,25 +34,26 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 301px;
- 
- position:relative;
- float:left;
-border-right:1px solid #c0c0c0;
+  height: auto;
+  position:relative;
+ transition: 0.3s;
     
+}
+.menu-itens-esconder:hover{
+  height: 301px;
+  transition: 0.3s;
+
 }
 
 .menu-itens-esconder .sub-menu{
   position:absolute;
-  top:25px;
+  top: 51px;
   left: 0;
    display:none;
 }
-.menu-itens-esconder:hover .sub-menu:hover{
-  position:absolute;
-  top:25px;
-  left: 0;
-   display:block;
+.menu-itens-esconder:hover .sub-menu{
+ 
+display:block;
 }
 .container-left {
   border: 1px solid #dbc710;
@@ -105,7 +108,7 @@ border-right:1px solid #c0c0c0;
   margin-right: 15px;
 }
 .sub-menu {
-  border: 1px solid red;
+  
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
@@ -120,7 +123,7 @@ border-right:1px solid #c0c0c0;
 
 }
 .sub-menu :hover {
-  border: 1px solid red;
+  
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
@@ -134,7 +137,7 @@ border-right:1px solid #c0c0c0;
 }
 
 .sub-title {
-  border: 1px solid brown;
+  
   align-items: center;
   justify-content: flex-start;
   margin-left: 41px;
