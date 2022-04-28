@@ -28,11 +28,14 @@ body {
   margin-right: 15px;
   width: 11px;
 }
-#Capa_1{
+#Capa_1 #Layer_1{
   fill:rgb(153, 150, 150);
 }
-.icons-top{
-  border-left:1px solid rgb(153, 150, 150);
+.icons-top-right{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border:1px solid rgb(153, 150, 150);
 }
 .icons-left-top{
   border: 1px solid red;
@@ -40,7 +43,7 @@ body {
   flex-direction: row;
   align-items: center;
   color:rgb(153, 150, 150);
-  padding: 8px 26px;
+  padding: 8px 15px;
   font-size: 12px;
 }
 
