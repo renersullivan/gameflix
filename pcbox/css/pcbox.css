@@ -17,7 +17,7 @@ body {
 .container-top{
   border: 1px solid silver;
   display: flex;
-  width: 100%;
+  width: 99%;
   height: 30px;
   align-items: center;
   justify-content: space-between;
@@ -26,7 +26,13 @@ body {
 .container-top svg{
   fill: rgb(153, 150, 150);
   margin-right: 15px;
-  font-size: 15px;
+  width: 11px;
+}
+#Capa_1{
+  fill:rgb(153, 150, 150);
+}
+.icons-top{
+  border-left:1px solid rgb(153, 150, 150);
 }
 .icons-left-top{
   border: 1px solid red;
@@ -35,6 +41,7 @@ body {
   align-items: center;
   color:rgb(153, 150, 150);
   padding: 8px 26px;
+  font-size: 12px;
 }
 
 .box-leftright{
@@ -178,7 +185,7 @@ display:block;
 }
 .container-right {
   border: 1px solid green;
-  height: 750px;
+  height: 742px;
   background-color: rgba(0, 0, 0, 0.199);
   display: flex;
   width: 100%;
