@@ -31,6 +31,12 @@ body {
 #Capa_1 #Layer_1{
   fill:rgb(153, 150, 150);
 }
+.cls-1{
+  fill:white;
+}
+#icon {
+  width: 15px;
+}
 .icons-top-right{
   display: flex;
   align-items: center;
