@@ -5,7 +5,7 @@
 }
 body {
   font-family: lato;
-  background-color: rgb(5, 5, 5);
+  background-color:#0c0c0d;
   font-size: 15px;
 }
 .container-geral {
@@ -15,7 +15,7 @@ body {
   flex-direction: column;
 }
 .container-top{
-  border: 1px solid silver;
+  border: 1px solid #606161;
   display: flex;
   width: 99%;
   height: 30px;
@@ -24,18 +24,20 @@ body {
   padding: 3px 5px;
 }
 .container-top svg{
-  fill: rgb(153, 150, 150);
+  fill:#606161;
   margin-right: 15px;
   width: 11px;
 }
-#Capa_1 #Layer_1{
-  fill:rgb(153, 150, 150);
+#Capa_1 #Layer_1 {
+  fill:#606161;
 }
-.cls-1{
-  fill:white;
+#arrow-up{
+  fill:#606161;
+  margin-left: 70px;
 }
 #icon {
   width: 15px;
+
 }
 .icons-top-right{
   display: flex;
@@ -45,7 +47,7 @@ body {
 }
 .lupa{
   height: 26px;
-  border-left: 1px solid rgb(153, 150, 150);
+  border-left: 1px solid #606161;
   border-right: 1px solid rgb(153,150,150);
   align-items: center;
   display: flex;
@@ -55,8 +57,8 @@ body {
 
 .notification{
   height: 26px;
-  border-left: 1px solid rgb(153, 150, 150);
-  border-right: 1px solid rgb(153,150,150);
+  border-left: 1px solid #606161;
+  border-right: 1px solid #606161;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -65,15 +67,18 @@ body {
 }
 .circle-red{
   border-radius: 100%;
-  background-color:red;
+  background-color:rgb(201, 71, 149);
   color:rgb(5,5,5);
   position:absolute;
-
+  font-size: x-small;
+  width: 13px;
+  text-align: center;
 }
+
 .account{
   height: 26px;
-  border-left: 1px solid rgb(153, 150, 150);
-  border-right: 1px solid rgb(153,150,150);
+  border-left: 1px solid #606161;
+  border-right: 1px solid #606161;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -84,11 +89,10 @@ body {
 }
 
 .icons-left-top{
-  border: 1px solid red;
   display:flex;
   flex-direction: row;
   align-items: center;
-  color:rgb(153, 150, 150);
+  color:#606161;
   padding: 8px 15px;
   font-size: 12px;
 }
@@ -124,17 +128,17 @@ body {
 display:block;
 }
 .container-left {
-  border: 1px solid #dbc710;
-  width: 138%;
+  width: 30%;
   height: 750px;
   overflow: hidden;
   max-width: 270px;
+  background-color: #000000;
 }
 .cabecalho p {
   color: white;
 }
 .menu-geral {
-  border: 1px solid pink;
+  
   display: flex;
   flex-direction: column;
   align-items: baseline;
@@ -147,8 +151,8 @@ display:block;
   justify-content: flex-start;
   align-items: center;
   font-size: 14px;
-  color: rgb(153, 150, 150);
-  fill: rgb(153, 150, 150);
+  color: #606161;
+  fill: #606161;
   height: 38px;
   width: 100%;
   padding: 0px 10px;
@@ -163,7 +167,7 @@ display:block;
   border-radius: 8px;
   background-color: rgb(34 32 34);
   color: rgb(255, 255, 255);
-  fill: rgb(89 183 155);
+  fill:#2e867b;
   font-weight: bolder;
 
   height: 38px;
@@ -180,8 +184,8 @@ display:block;
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
-  font-size: 20px;
-  color: rgb(153, 150, 150);
+  font-size: 14px;
+  color: #606161;
   flex-direction: column;
   width: 100%;
   transition: all 0.3s;
@@ -195,13 +199,17 @@ display:block;
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
-  font-size: 20px;
+  font-size: 14px;
   color: rgb(255, 245, 245);
   flex-direction: column;
   width: 100%;
   transition: all 0.3s;
   cursor: pointer;
  
+}
+.bell{
+  display: flex;
+  margin-left: 45px;
 }
 
 .sub-title {
@@ -216,26 +224,26 @@ display:block;
   display: flex;
   width: 92%;
   justify-content: space-around;
-  border: 1px solid blueviolet;
-  color: rgb(255, 255, 255);
+ color:#606161;
   padding: 0px 10px;
+  cursor:pointer;
 }
 .barra {
-  border: 1px solid rgb(153, 150, 150);
+  border: 1px solid #606161;
   width: 97%;
   box-shadow: -6px -5px 7px #3e2358;
   margin-bottom: 10px;
 }
 .more svg {
   justify-content: flex-start;
-  border: 1px solid blueviolet;
-  color: rgb(153, 150, 150);
-  fill: rgb(153, 150, 150);
+ 
+  color: #606161;
+  fill: #606161;
 }
 .container-right {
-  border: 1px solid green;
+ 
   height: 742px;
-  background-color: rgba(0, 0, 0, 0.199);
+  background-color:#000000;
   display: flex;
   width: 100%;
   flex-direction: column;
