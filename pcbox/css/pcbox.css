@@ -41,8 +41,48 @@ body {
   display: flex;
   align-items: center;
   flex-direction: row;
-  border:1px solid rgb(153, 150, 150);
+ 
 }
+.lupa{
+  height: 26px;
+  border-left: 1px solid rgb(153, 150, 150);
+  border-right: 1px solid rgb(153,150,150);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 12px;
+}
+
+.notification{
+  height: 26px;
+  border-left: 1px solid rgb(153, 150, 150);
+  border-right: 1px solid rgb(153,150,150);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 12px;
+  position:relative;
+}
+.circle-red{
+  border-radius: 100%;
+  background-color:red;
+  color:rgb(5,5,5);
+  position:absolute;
+
+}
+.account{
+  height: 26px;
+  border-left: 1px solid rgb(153, 150, 150);
+  border-right: 1px solid rgb(153,150,150);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 12px;
+}
+.account p{
+  color:rgb(153,150,150);
+}
+
 .icons-left-top{
   border: 1px solid red;
   display:flex;
@@ -106,10 +146,10 @@ display:block;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 20px;
+  font-size: 14px;
   color: rgb(153, 150, 150);
   fill: rgb(153, 150, 150);
-  height: 47px;
+  height: 38px;
   width: 100%;
   padding: 0px 10px;
   transition: all 0.3s;
@@ -119,14 +159,14 @@ display:block;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 20px;
+  font-size: 14px;
   border-radius: 8px;
   background-color: rgb(34 32 34);
   color: rgb(255, 255, 255);
   fill: rgb(89 183 155);
   font-weight: bolder;
 
-  height: 47px;
+  height: 38px;
   width: 100%;
   transition: all 0.3s;
 }
