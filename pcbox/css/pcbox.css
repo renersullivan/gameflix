@@ -211,13 +211,17 @@ display:block;
   display: flex;
   margin-left: 45px;
 }
+#directional{
+  width: 10px;
+  height: 10px;
+}
 
 .sub-title {
   
   align-items: center;
   justify-content: flex-start;
   margin-left: 41px;
-
+  margin-bottom: 10px;
 }
 
 .more {
