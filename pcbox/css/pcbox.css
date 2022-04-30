@@ -134,9 +134,7 @@ display:block;
   max-width: 270px;
   background-color: #000000;
 }
-.cabecalho p {
-  color: white;
-}
+
 .menu-geral {
   
   display: flex;
@@ -217,7 +215,6 @@ display:block;
 }
 
 .sub-title {
-  
   align-items: center;
   justify-content: flex-start;
   margin-left: 41px;
@@ -226,7 +223,7 @@ display:block;
 
 .more {
   display: flex;
-  width: 92%;
+  width: 65%;
   justify-content: space-around;
  color:#606161;
   padding: 0px 10px;
@@ -234,7 +231,7 @@ display:block;
 }
 .barra {
   border: 1px solid #606161;
-  width: 97%;
+  width: 75%;
   box-shadow: -6px -5px 7px #3e2358;
   margin-bottom: 10px;
 }
@@ -253,3 +250,32 @@ display:block;
   flex-direction: column;
   padding: 4px 19px;
 }
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.title-integration{
+  display: flex;
+  flex-direction: row;
+}
+.title-integration-icon svg{
+  width: 15px;
+  height: 15px;
+  fill:#2e867b;
+}
+.title-integration1{
+  color:white;
+  font-size: 13px;
+
+}
+.title-integration2{
+color:#606161;
+font: size 13px;
+}
+.title-integration3{
+  color:white;
+  font-size: 50px;
+
+}
+
