@@ -5,7 +5,7 @@
 }
 body {
   font-family: lato;
-  background-color:#0c0c0d;
+  background-color:#161719;
   font-size: 15px;
 }
 .container-geral {
@@ -66,7 +66,7 @@ body {
 }
 .circle-red{
   border-radius: 100%;
-  background-color:rgb(201, 71, 149);
+  background-color:#f4729e;
   color:rgb(5,5,5);
   position:absolute;
   font-size: x-small;
@@ -147,9 +147,9 @@ display:block;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 14px;
-  color: #606161;
-  fill: #606161;
+  font-size: 17px;
+  color: #272727;
+  fill: #272727;
   height: 38px;
   width: 100%;
   padding: 0px 10px;
@@ -157,18 +157,11 @@ display:block;
 }
 
 .menu-itens:hover {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: 14px;
-  border-radius: 8px;
+  border-radius: 9px;
   background-color: rgb(34 32 34);
   color: rgb(255, 255, 255);
-  fill:#2e867b;
+  fill:#27897b;
   font-weight: bolder;
-
-  height: 38px;
-  width: 100%;
   transition: all 0.3s;
 }
 .menu-itens svg {
@@ -181,7 +174,7 @@ display:block;
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
-  font-size: 14px;
+  font-size:17px;
   color: #606161;
   flex-direction: column;
   width: 100%;
@@ -192,16 +185,9 @@ display:block;
 
 }
 .sub-menu :hover {
-  
-  display: flex;
-  justify-content: flex-start;
-  align-items: stretch;
-  font-size: 14px;
   color: rgb(255, 245, 245);
-  flex-direction: column;
-  width: 100%;
   transition: all 0.3s;
-  cursor: pointer;
+  
  
 }
 .bell{
@@ -262,7 +248,7 @@ display:block;
 .title-integration-icon svg{
   width: 15px;
   height: 15px;
-  fill:#2e867b;
+  fill:#27897b;
 }
 .barra-right{
   display: flex;
@@ -285,8 +271,8 @@ font: size 13px;
 }
 .btn-start{
   display: flex;
-  border: 1px solid #2e867b;
-  background-color:#48cbac;
+  border: 1px solid #00eed5;
+  background-color:#00eed5;
   align-items: center;
   justify-content: center;
   margin-left: 25px;
@@ -299,7 +285,7 @@ font: size 13px;
 .btn-cancel{
   display: flex;
   border:1px solid black;
-  color:#48cbac;
+  color:#00eed5;
   text-align: center;
   align-items: center;
   margin-left: 25px;
@@ -309,7 +295,7 @@ font: size 13px;
 
 }
 .linha{
-  border: 1px solid #c91010;
+  border: 1px solid #262626;
   margin-top: 11px;
   
 }
