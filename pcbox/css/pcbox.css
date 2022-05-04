@@ -284,6 +284,7 @@ font: size 13px;
   border-radius: 2px;
   width: 103px;
   height: 27px;
+  cursor: pointer;
 
 
 }
@@ -297,10 +298,62 @@ font: size 13px;
   border-radius: 4px;
   width: 104px;
   height: 32px;
+  cursor: pointer;
 
 }
 .linha{
   border: 1px solid #262626;
   margin-top: 11px;
   
+}
+.box-icon-office{
+  
+  background-color: #161719;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+  height: 186px;
+}
+.ms-office{
+  color: #4f4f4f;
+  font-size: 17px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  border: #4f4f4f;
+  
+}
+.installed{
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  font-size: 9px;
+  color: #454545;
+  padding: 10px;
+  -webkit-text-stroke-width: thick;
+}
+.installed svg{
+  width: 8px;
+  margin-right: 7px;
+}
+
+.img-office{
+  width: 56px;
+  height: 119px;
+  fill: #454545;
+  
+}
+.img-office svg{
+  width: 55px;
+  height: 55px;
+}
+.img-office p {
+  color: #4d4e50;
+  width: 67px;
+  font-size: 9px;
+  margin-top: 30px;
+  text-align-last: justify;
+  -webkit-text-stroke-width: thick;
+  border-bottom-style: dotted;
 }
