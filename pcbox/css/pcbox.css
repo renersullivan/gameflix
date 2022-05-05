@@ -128,7 +128,6 @@ display:block;
 }
 .container-left {
   width: 30%;
-  height: 1700px;
   overflow: hidden;
   max-width: 270px;
   background-color: #000000;
@@ -231,8 +230,7 @@ display:block;
 }
 .container-right {
  
-  height: 1700px;
-  background-color:#000000;
+    background-color:#000000;
   display: flex;
   width: 73%;
   flex-direction: column;
@@ -420,7 +418,6 @@ font: size 13px;
 .img-tools3 svg, .img-tools3 img {
   margin-top: 5px;
   width: 55px;
-<<<<<<< Updated upstream
   height: 55px;
   mix-blend-mode: luminosity;
  
@@ -434,14 +431,12 @@ font: size 13px;
   mix-blend-mode: luminosity;
   fill:#4f4f4f;
   fill-rule: #4f4f4f;
-=======
   height: 55px; 
   fill:rgb(153,150,150);
 }
 .box-icon-office:hover svg{
 
   fill:#00eed5;
->>>>>>> Stashed changes
 }
 
 .img-tools3 p{
