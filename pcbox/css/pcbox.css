@@ -434,8 +434,8 @@ font: size 13px;
   height: 55px; 
   fill:rgb(153,150,150);
 }
-.box-icon-office:hover svg{
 
+.box-icon-office:hover svg{
   fill:#00eed5;
 }
 
