@@ -385,6 +385,12 @@ body {
 .installed svg {
   width: 8px;
   margin-right: 7px;
+  transition:all 0.3s ;
+}
+.installed svg:hover{
+  border-radius: 100%;
+  color:#00eed5;
+  transition:all 0.3s ;
 }
 
 .img-office {
@@ -486,10 +492,11 @@ body {
   height: 55px;
   fill: rgb(153, 150, 150);
 }
-
-.box-icon-office:hover svg {
-  fill: #00eed5;
+.box-icon-office:hover {
+  border:1px solid #00eed5 ;
+  
 }
+
 
 .img-tools3 p {
   color: #4d4e50;
