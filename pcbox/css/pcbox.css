@@ -494,6 +494,7 @@ body {
 }
 .box-icon-office:hover {
   border:1px solid #00eed5 ;
+  cursor: pointer;
   
 }
 
