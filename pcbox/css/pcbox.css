@@ -398,7 +398,7 @@ body {
 
 .img-office {
   width: 56px;
-  height: 119px;
+  height: 137px;
   fill: #454545;
 
 }
@@ -411,11 +411,14 @@ body {
 .img-office p {
   color: #4d4e50;
   width: 67px;
-  font-size: 9px;
+  font-size: 8px;
   margin-top: 30px;
   text-align-last: justify;
   -webkit-text-stroke-width: thick;
   border-bottom-style: dotted;
+}
+#image0,#Layer_1{
+  fill: #4f4f4f;
 }
 
 .box-tools {
