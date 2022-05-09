@@ -400,9 +400,16 @@ body {
   width: 56px;
   height: 137px;
   fill: #454545;
-
+  
 }
-
+img.cloud {
+  width: 55px;
+  height: 55px;
+  filter: opacity(0.4) drop-shadow(0 0 0 red);
+  -webkit-text-stroke-width: thick;
+  mix-blend-mode: luminosity;
+ 
+}
 .img-office svg {
   width: 55px;
   height: 55px;
