@@ -402,6 +402,19 @@ body {
   color: #00eed5;
   transition: all 0.3s;
 }
+.pai-preco{
+  display: flex;
+  flex-direction: row;
+
+}
+.preco{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #c18fff;
+  background-color: #c18fff;
+  width: 50px;
+  height: 13px;
+}
 
 
 .img-office {
