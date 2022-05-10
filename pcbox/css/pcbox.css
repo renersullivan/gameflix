@@ -347,7 +347,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: calc(25% - 5px);
+  width: calc(25% - 6px);
 
   height: 186px;
   margin: 2px;
