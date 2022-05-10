@@ -426,6 +426,9 @@ img.cloud {
 }
 #image0,#Layer_1{
   fill: #4f4f4f;
+  width: 80px;
+  height: 63px;
+  margin-left: -12px;
 }
 
 .box-tools {
