@@ -32,6 +32,7 @@ body {
   width: 11px;
 }
 
+
 #Capa_1 #Layer_1 {
   fill: #606161;
 }
@@ -240,9 +241,9 @@ body {
 }
 
 .barra {
-  border: 1px solid #606161;
+  border: 1px solid #161616;
   width: 75%;
-  box-shadow: -6px -5px 7px #3e2358;
+  box-shadow: -6px -5px 7px #211e24;
   margin-bottom: 10px;
 }
 
@@ -431,7 +432,7 @@ img.cloud {
   -webkit-text-stroke-width: thick;
   border-bottom-style: dotted;
 }
-#image0,{
+#image0{
   fill: #4f4f4f;
   width: 80px;
   height: 63px;
