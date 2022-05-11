@@ -24,17 +24,13 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 3px 5px;
+  border-bottom: 1px solid #2e2d2d;
 }
 
 .container-top svg {
   fill: #606161;
   margin-right: 15px;
   width: 11px;
-}
-
-
-#Capa_1 #Layer_1 {
-  fill: #606161;
 }
 
 #arrow-up {
@@ -47,12 +43,16 @@ body {
   fill: rgb(255, 255, 255);
 }
 
-
-.icons-top-right {
+.icons-top-right{
   display: flex;
   align-items: center;
   flex-direction: row;
 
+}
+.icons-top-right:hover{
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 .lupa {
@@ -63,6 +63,10 @@ body {
   display: flex;
   justify-content: center;
   padding-left: 12px;
+}
+.lupa #capa_1 :hover{
+  fill: #FFFFFF;
+  cursor: pointer;
 }
 
 .notification {
@@ -95,6 +99,14 @@ body {
   justify-content: center;
   padding-left: 12px;
 }
+.account p:hover{
+  color: #FFFFFF;
+  fill: #FFFFFF;
+}
+.account svg:hover{
+  color: #FFFFFF;
+  fill: #FFFFFF;
+}
 
 .account p {
   color: rgb(153, 150, 150);
@@ -107,8 +119,11 @@ body {
   color: #606161;
   padding: 8px 15px;
   font-size: 12px;
-
-
+}
+.icons-left-top :hover{
+  cursor: pointer;
+  fill: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .box-leftright {
@@ -563,7 +578,7 @@ img.cloud {
 }
 
 #capa_1:hover {
-
+  fill: #FFFFFF;
   border: 1px solid #00eed5;
   cursor: pointer;
 
