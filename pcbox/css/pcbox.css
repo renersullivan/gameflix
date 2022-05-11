@@ -575,6 +575,7 @@ img.cloud {
 .box-icon-office:hover {
   border: 1px solid #00eed5;
   cursor: pointer;
+  background-color: #202626;
 }
 
 #capa_1:hover {
