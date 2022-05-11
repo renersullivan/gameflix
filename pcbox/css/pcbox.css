@@ -391,12 +391,16 @@ body {
 }
 
 .installed svg {
-  width: 8px;
-  margin-right: 7px;
+  border: 1px solid transparent;
+ 
+   border-radius: 80%;
   transition: all 0.3s;
+  
 }
 
 .installed svg:hover {
+ 
+  
   border: 1px solid #00eed5;
   border-radius: 80%;
   color: #00eed5;
@@ -405,6 +409,8 @@ body {
 .pai-preco{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  
 
 }
 .preco{
@@ -414,6 +420,11 @@ body {
   background-color: #c18fff;
   width: 50px;
   height: 13px;
+  margin-left: 21px;
+  
+}
+.preco p {
+  align-items: center;
 }
 
 
@@ -437,7 +448,7 @@ img.cloud {
 }
 
 .img-office p {
-  color: #4d4e50;
+  color:#737778;
   width: 67px;
   font-size: 8px;
   margin-top: 30px;
