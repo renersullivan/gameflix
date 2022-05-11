@@ -43,13 +43,14 @@ body {
   fill: rgb(255, 255, 255);
 }
 
-.icons-top-right{
+.icons-top-right {
   display: flex;
   align-items: center;
   flex-direction: row;
 
 }
-.icons-top-right:hover{
+
+.icons-top-right:hover {
   fill: #FFFFFF;
   color: #FFFFFF;
   cursor: pointer;
@@ -58,21 +59,23 @@ body {
 .lupa {
   height: 35px;
   border-left: 1px solid #242527;
-  
+
   align-items: center;
   display: flex;
   justify-content: center;
   padding-left: 12px;
 }
-.lupa #capa_1 :hover{
+
+.lupa #capa_1 :hover {
   fill: #FFFFFF;
   cursor: pointer;
+  
 }
 
 .notification {
   height: 35px;
   border-left: 1px solid #242527;
-  
+
   align-items: center;
   display: flex;
   justify-content: center;
@@ -99,11 +102,13 @@ body {
   justify-content: center;
   padding-left: 12px;
 }
-.account p:hover{
+
+.account p:hover {
   color: #FFFFFF;
   fill: #FFFFFF;
 }
-.account svg:hover{
+
+.account svg:hover {
   color: #FFFFFF;
   fill: #FFFFFF;
 }
@@ -120,7 +125,8 @@ body {
   padding: 8px 15px;
   font-size: 12px;
 }
-.icons-left-top :hover{
+
+.icons-left-top :hover {
   cursor: pointer;
   fill: #FFFFFF;
   color: #FFFFFF;
@@ -365,7 +371,7 @@ body {
   justify-content: center;
   align-items: center;
   width: calc(25% - 6px);
-
+  opacity: 0.6;
   height: 186px;
   margin: 2px;
 
@@ -500,6 +506,7 @@ img.cloud {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
   /* Aqui estamos falando que ele ira quebrar  a linha */
 }
 
@@ -523,6 +530,7 @@ img.cloud {
 .img-tools2 {
   width: 118px;
   height: 147px;
+
 }
 
 .img-tools2 img {
@@ -569,13 +577,8 @@ img.cloud {
 .box-icon-office:hover {
   border: 1px solid #00eed5;
   cursor: pointer;
-
-}
-
-.box-icon-office:hover {
-  border: 1px solid #00eed5;
-  cursor: pointer;
   background-color: #202626;
+  opacity: 1.6;
 }
 
 #capa_1:hover {
