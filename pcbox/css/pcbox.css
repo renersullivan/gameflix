@@ -56,8 +56,8 @@ body {
 }
 
 .lupa {
-  height: 26px;
-  border-left: 1px solid #606161;
+  height: 35px;
+  border-left: 1px solid #242527;
   
   align-items: center;
   display: flex;
@@ -66,8 +66,8 @@ body {
 }
 
 .notification {
-  height: 26px;
-  border-left: 1px solid #606161;
+  height: 35px;
+  border-left: 1px solid #242527;
   
   align-items: center;
   display: flex;
@@ -88,9 +88,8 @@ body {
 }
 
 .account {
-  height: 26px;
-  border-left: 1px solid #606161;
-  border-right: 1px solid #606161;
+  height: 35px;
+  border-left: 1px solid #242527;
   align-items: center;
   display: flex;
   justify-content: center;
