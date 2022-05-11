@@ -581,6 +581,20 @@ img.cloud {
   opacity: 1.6;
 }
 
+
+.box-icon-office svg, .box-icon-office img, .box-icon-office g {
+  opacity: 0.5;
+  transition: all 0.6s;
+}
+
+.box-icon-office:hover svg, .box-icon-office img:hover, .box-icon-office:hover g{
+  opacity: 1;
+  fill:white;
+
+  transition: all 0.2s;
+}
+
+
 #capa_1:hover {
   fill: #FFFFFF;
   border: 1px solid #00eed5;
