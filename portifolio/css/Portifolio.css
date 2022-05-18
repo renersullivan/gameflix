@@ -1,0 +1,16 @@
+.container-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    color: #1a8cff;
+    justify-content: space-between;
+
+}
+
+img {
+    width: 55px;
+    height: auto;
+    border-radius: 100%;
+
+}
