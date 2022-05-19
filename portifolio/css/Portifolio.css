@@ -40,10 +40,13 @@ img {
 .btn-disponivel{
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 1px solid #ffe300;
     background-color: #ffe300;
     border-radius: 9px;
     width: 241px;
+    height: 25px;
     cursor: pointer;
     margin-left: 550px;
+    font-weight: bolder;
 }
