@@ -1,10 +1,17 @@
+budy {
+    margin: 0;
+    padding: 0;
+}
+
 .container-top {
+    border: 1px solid black;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
     text-align: center;
     color: #1a8cff;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
@@ -13,4 +20,23 @@ img {
     height: auto;
     border-radius: 100%;
 
+}
+
+.texto-titulo, h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.front {
+    display: flex;
+    justify-content: center;
+}
+.btn-disponivel{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ffe300;
+    background-color: #ffe300;
+    border-radius: 9px;
 }
