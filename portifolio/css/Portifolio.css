@@ -27,11 +27,15 @@ img {
     text-align: center;
     align-items: center;
     justify-content: center;
+    font-size:70px;
+
 }
 
 .front {
     display: flex;
     justify-content: center;
+    font-size: 30PX;
+    margin-bottom: 25px;
 }
 .btn-disponivel{
     display: flex;
@@ -39,4 +43,7 @@ img {
     border: 1px solid #ffe300;
     background-color: #ffe300;
     border-radius: 9px;
+    width: 241px;
+    cursor: pointer;
+    margin-left: 550px;
 }
