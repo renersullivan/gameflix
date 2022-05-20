@@ -5,8 +5,13 @@ body {
     font-weight: 400;
     margin: 0;
     padding: 0;
+    background: url('./imagens/bg-repeat.png') repeat;
 
 
+}
+.container-geral{
+    height: 750px;
+    min-width: 600px;
 }
 
 .container-top {
@@ -58,4 +63,24 @@ h1 {
     margin-left: 550px;
     font-weight: 500;
     font-size: 13px;
+}
+
+.trabalho {
+    margin-top: 250px;
+    margin-left: 160px;
+    font-size: 20px;
+}
+.pai-works{
+    display: flex;
+    margin-left: 170px;
+    border: 1px solid black;
+    width: 830px;
+    height: 700px;
+
+}
+.work1{
+    border: 1px solid red;
+    width: 207px;
+    height: 50%;
+    margin-left: 160px;
 }
