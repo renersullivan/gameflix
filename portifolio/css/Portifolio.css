@@ -114,3 +114,66 @@ h1 {
     height: 50%;
     margin-left: 160px;
 }
+
+.work2 {
+    border: 1px solid red;
+    width: 207px;
+    height: 50%;
+    margin-left: 160px;
+}
+
+.work3 {
+    border: 1px solid red;
+    width: 207px;
+    height: 50%;
+    margin-left: 160px;
+}
+
+.work4 {
+    border: 1px solid red;
+    width: 207px;
+    height: 50%;
+    margin-left: 160px;
+}
+
+.sobre {
+    margin-left: 160px;
+}
+
+.sobre p {
+    text-align: left;
+}
+
+.informacao-rodape {
+    display: flex;
+    flex-direction: row;
+
+    word-wrap: break-word;
+}
+
+.topnav {
+    display: flex;
+
+
+    overflow: hidden;
+}
+
+.topnav a {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #007fff;
+}
+
+.topnav a:hover {
+    color: black;
+}
+
+.topnav li {
+    text-decoration:none;
+    list-style-type:none;
+}
