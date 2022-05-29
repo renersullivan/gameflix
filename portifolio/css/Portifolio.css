@@ -36,6 +36,17 @@ body {
     font-size: 12px;
 }
 
+.container-top img {
+
+    width: 55px;
+    height: auto;
+    margin-right: 160px;
+    margin-left: 160px;
+    border-radius: 100%;
+}
+
+
+
 .links-right {
     display: flex;
     flex-direction: row;
@@ -46,13 +57,7 @@ body {
 }
 
 
-img {
-    width: 55px;
-    height: auto;
-    margin-right: 160px;
-    margin-left: 160px;
-    border-radius: 100%;
-}
+
 
 .pai-texto-titulo {
     display: flex;
@@ -108,14 +113,14 @@ h1 {
 
 }
 
-.work1 {
+.work1 img {
     border: 1px solid red;
     width: 207px;
     height: 50%;
     margin-left: 160px;
 }
 
-.work2 {
+.work2 img {
     border: 1px solid red;
     width: 207px;
     height: 50%;
@@ -174,6 +179,6 @@ h1 {
 }
 
 .topnav li {
-    text-decoration:none;
-    list-style-type:none;
+    text-decoration: none;
+    list-style-type: none;
 }
