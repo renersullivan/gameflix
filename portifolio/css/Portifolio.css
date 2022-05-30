@@ -118,34 +118,34 @@ section{
     margin: auto;
     border: 1px solid black;
     width: 900px;
-    height: 700px;
+    flex-direction: column;
 
 }
+ 
 
-.work1 img {
-    border: 1px solid red;
-    width: 207px;
-    height: 50%;
+.work img {
+    width: 100%;
+    height: auto;
+
+    transition: all 3s;
 }
 
-.work2 img {
-    border: 1px solid red;
-    width: 207px;
-    height: 50%;
+.work{
+    width: 100%;
+    min-width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-bottom: 35px;
+    min-height: 500px;
 }
 
-.work3 {
-    border: 1px solid red;
-    width: 207px;
-    height: 50%;
+.work:hover img{
+    transform:translateY(-80px);
+
+    transition: all 3s;
 }
 
-.work4 {
-    border: 1px solid red;
-    width: 207px;
-    height: 50%;
-}
-
+ 
 .sobre {
     padding-right:60px;
 }
