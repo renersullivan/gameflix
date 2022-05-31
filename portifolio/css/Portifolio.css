@@ -98,18 +98,18 @@ h1 {
     height: 27px;
 }
 
-section{
-    width:100%;
-    max-width:1100px;
-    margin:auto;
-    margin-top:100px;
+section {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 100px;
 }
 
 .titulo {
     font-size: 20px;
     width: 100%;
-    max-width:900px;
-    margin:auto;
+    max-width: 900px;
+    margin: auto;
     margin-bottom: 60px;
 }
 
@@ -121,7 +121,7 @@ section{
     flex-direction: column;
 
 }
- 
+
 
 .work img {
     width: 100%;
@@ -130,7 +130,7 @@ section{
     transition: all 3s;
 }
 
-.work{
+.work {
     width: 100%;
     min-width: 100%;
     height: 500px;
@@ -139,15 +139,15 @@ section{
     min-height: 500px;
 }
 
-.work:hover img{
-    transform:translateY(-80px);
+.work:hover img {
+    transform: translateY(-80px);
 
     transition: all 3s;
 }
 
- 
+
 .sobre {
-    padding-right:60px;
+    padding-right: 60px;
 }
 
 .sobre p {
@@ -157,7 +157,7 @@ section{
 .informacao-rodape {
     display: flex;
     flex-direction: row;
-    width:100%;
+    width: 100%;
     max-width: 900px;
     margin: auto;
     word-wrap: break-word;
@@ -188,4 +188,50 @@ section{
 .topnav li {
     text-decoration: none;
     list-style-type: none;
+}
+
+nav ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#Layer_1 {
+    justify-content: center;
+    align-items: center;
+    width: 17px;
+    height: 17px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+
+}
+
+.checkbox {
+    margin: 20px 0;
 }
