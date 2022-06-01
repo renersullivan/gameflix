@@ -103,9 +103,10 @@ section {
     max-width: 1100px;
     margin: auto;
     margin-top: 100px;
- 
+
 }
-section .inform-contato{
+
+section .inform-contato {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -118,11 +119,13 @@ section .inform-contato{
     margin: auto;
     margin-bottom: 60px;
 }
-
+.titulo:hover{
+    color: #000000;
+    text-shadow: 2px 2px 4px #8d8d8d;
+}
 .pai-works {
     display: flex;
     margin: auto;
-    border: 1px solid black;
     width: 900px;
     flex-direction: column;
 
@@ -158,8 +161,8 @@ section .inform-contato{
 
 .sobre p {
     text-align: left;
-}
 
+}
 .informacao-rodape {
     display: flex;
     flex-direction: row;
@@ -185,8 +188,8 @@ section .inform-contato{
     font-size: 12px;
     color: #007fff;
     margin: auto;
-    
-   
+
+
 }
 
 .topnav a:hover {
@@ -225,7 +228,8 @@ li p {
     margin-left: 175px;
     margin-right: 27px;
 }
-.links-left{
+
+.links-left {
     margin-left: 20px;
 }
 
@@ -263,7 +267,27 @@ form legend {
 .checkbox {
     margin: 20px 0;
 }
-.btn-submit{
-   
-    
+
+.btn-submit {
+    border-radius: 100%;
+    border: transparent;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transform: 0.3s;
+
+
+}
+
+.submit_icon {
+    width: 30px;
+    height: 30px;
+    fill: #b1b1b1;
+}
+
+.submit_icon :hover {
+    fill: #7fffd4;
+    transition: all 0.3s;
+    box-shadow: #000000 (0, 0, 3 0, 7);
+
 }
