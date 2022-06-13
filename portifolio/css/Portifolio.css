@@ -24,6 +24,7 @@ body {
     text-align: center;
     color: #1a8cff;
     justify-content: space-evenly;
+    cursor: pointer;
 
 }
 
@@ -84,7 +85,7 @@ h1 {
     margin-bottom: 25px;
 }
 
-.btn-disponivel {
+.btn-amarelo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,10 +120,12 @@ section .inform-contato {
     margin: auto;
     margin-bottom: 60px;
 }
-.titulo:hover{
+
+.titulo:hover {
     color: #000000;
     text-shadow: 2px 2px 4px #8d8d8d;
 }
+
 .pai-works {
     display: flex;
     margin: auto;
@@ -146,12 +149,29 @@ section .inform-contato {
     overflow: hidden;
     margin-bottom: 35px;
     min-height: 500px;
+    position: relative;
+    z-index: 0;
+
+}
+
+.text-label {
+
+    position: absolute;
+    top: 380px;
+    left: 90px;
+    z-index: -1;
+}
+
+.text-label-p {
+    font-size: 26px;
+    color: #535151;
+
 }
 
 .work:hover img {
     transform: translateY(-80px);
-
     transition: all 3s;
+    z-index: 1;
 }
 
 
@@ -163,6 +183,7 @@ section .inform-contato {
     text-align: left;
 
 }
+
 .informacao-rodape {
     display: flex;
     flex-direction: row;
@@ -290,4 +311,18 @@ form legend {
     transition: all 0.3s;
     box-shadow: #000000 (0, 0, 3 0, 7);
 
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.copyright {
+    color: #535151;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
