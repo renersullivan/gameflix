@@ -35,8 +35,13 @@ body {
     font-weight: 600;
     width: 250px;
     font-size: 12px;
+    
 }
-
+.links-left a{
+    color: #1a8cff;
+    text-decoration: none;
+    transition: all 0.3s;
+}
 .container-top img {
 
     width: 55px;
@@ -55,6 +60,10 @@ body {
     font-weight: 600;
     font-size: 12px;
     width: 250px;
+}
+.links-right a{
+    color: #1a8cff;
+    text-decoration: none;
 }
 
 
@@ -159,7 +168,7 @@ section .inform-contato {
     position: absolute;
     top: 380px;
     left: 90px;
-   
+
 }
 
 .text-label-p {
@@ -275,7 +284,7 @@ form legend {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: 100%;
     border: transparent;
     background: #FFFFFF;
     border-bottom: 1px solid #cfcfcf;
@@ -324,3 +333,4 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
+
