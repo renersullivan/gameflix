@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -25,41 +29,12 @@ body {
   cursor: pointer;
 }
 
-.links-left {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-weight: 600;
-  width: 250px;
-  font-size: 12px;
-}
-
-.links-left a {
-  color: #1a8cff;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-
 .container-top img {
   width: 55px;
   height: auto;
   margin-right: 160px;
   margin-left: 160px;
   border-radius: 100%;
-}
-
-.links-right {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-weight: 600;
-  font-size: 12px;
-  width: 250px;
-}
-
-.links-right a {
-  color: #1a8cff;
-  text-decoration: none;
 }
 
 .pai-texto-titulo {
@@ -215,8 +190,28 @@ section .inform-contato {
   transition: all 0.3s;
 }
 
-.sobre {
-  padding-right: 60px;
+.link-geral {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 900px;
+  margin: auto;
+}
+
+.link {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.link a {
+  display: block;
+  width: 100%;
+  padding-left: 5px;
+  text-decoration: none;
+  color: #1a8cff;
 }
 
 .sobre p {
