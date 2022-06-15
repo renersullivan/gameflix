@@ -20,12 +20,10 @@ body {
 .container-top {
   margin-bottom: 98px;
   margin-top: 176px;
+  margin-left: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
-  text-align: center;
-  color: #1a8cff;
-  justify-content: space-evenly;
   cursor: pointer;
 }
 
@@ -35,6 +33,30 @@ body {
   margin-right: 160px;
   margin-left: 160px;
   border-radius: 100%;
+}
+
+.links-left {
+  margin-left: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.links-left a {
+  text-decoration: none;
+  color: #1a8cff;
+}
+
+.links-right {
+  margin-left: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.links-right a {
+  text-decoration: none;
+  color: #1a8cff;
 }
 
 .pai-texto-titulo {
