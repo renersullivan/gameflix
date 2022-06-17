@@ -235,6 +235,10 @@ section .inform-contato {
   text-decoration: none;
   color: #1a8cff;
 }
+.link svg {
+  width: 29px;
+  height: 27px;
+}
 
 .sobre p {
   text-align: left;
