@@ -345,7 +345,7 @@ form legend {
   margin: 20px 0;
 }
 
-.btn-submit {
+.btn-enviar {
   position: relative;
   width: 70px;
   height: 30px;
@@ -357,42 +357,20 @@ form legend {
   cursor: pointer;
   transition: width 0.5s;
   border-radius: 0.5s;
+  transition: all 0.5s;
 }
 
-.btn-submit * {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: opacity 0.25s;
+.btn-enviar:hover {
+  background-color: #00ffff;
+  color: #535151;
 }
 
-.btn-submit:focus {
-  width: 30px;
-  background-color: #44c08a;
-  border-radius: 50%;
+.icons-contato svg {
+  cursor: pointer;
 }
 
-.btn-submit:focus .text {
-  opacity: 0;
-}
-
-.btn-submit:focus .icon {
-  opacity: 1;
-  transition-delay: 0.5s;
-}
-
-.icon {
-  opacity: 0;
-}
-.icon svg {
-  fill: #b1b1b1;
-}
-
-.submit_icon :hover {
-  fill: #7fffd4;
-  transition: all 0.3s;
-  box-shadow: #000000 (0, 0, 3 0, 7);
+.icons-contato svg:hover {
+  fill-opacity: 0.3;
 }
 
 footer {
