@@ -239,6 +239,7 @@ section .inform-contato {
 .link svg {
   width: 29px;
   height: 27px;
+  cursor: pointer;
 }
 
 .sobre p {
