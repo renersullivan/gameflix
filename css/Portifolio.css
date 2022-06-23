@@ -194,9 +194,14 @@ section .inform-contato {
   height: 31px;
   padding: 10px 10px;
 }
+
 .btn-amarelo-1 a {
   text-decoration: none;
   color: #000000;
+}
+
+.btn-amarelo-1:hover {
+  transform: scale(1.2);
 }
 
 .text-label-p {
