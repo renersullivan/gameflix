@@ -34,6 +34,10 @@ body {
   border-radius: 100%;
 }
 
+.container-top img:hover {
+  transform: scale(1.2);
+}
+
 .links-left {
   margin-left: 20px;
   display: flex;
