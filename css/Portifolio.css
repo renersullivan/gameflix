@@ -190,9 +190,13 @@ section .inform-contato {
   cursor: pointer;
   font-weight: 600;
   font-size: 13px;
-  width: 276px;
+  width: 270px;
   height: 31px;
   padding: 10px 10px;
+}
+.btn-amarelo-1 a {
+  text-decoration: none;
+  color: #000000;
 }
 
 .text-label-p {
