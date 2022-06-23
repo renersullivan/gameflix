@@ -19,9 +19,7 @@ body {
 
 .container-top {
   max-width: 1000px;
-  margin-bottom: 98px auto;
-  margin-top: 176px auto;
-  margin-left: auto;
+  margin: 176px auto 98px auto;
   display: flex;
   flex-direction: row;
   align-items: center;
