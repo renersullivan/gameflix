@@ -12,6 +12,16 @@ body {
   background: url("./imagens/bg-repeat.png") repeat;
 }
 
+@media screen and (max-width: 600px) {
+  body,
+  section {
+    width: 100%;
+    justify-content: center;
+    display: block;
+    overflow: hidden;
+  }
+}
+
 .container-geral {
   height: 750px;
   min-width: 600px;
