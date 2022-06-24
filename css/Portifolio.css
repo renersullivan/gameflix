@@ -28,9 +28,8 @@ body {
 }
 
 .container-top {
-  margin-bottom: 98px;
-  margin-top: 176px;
-  margin-left: auto;
+  max-width: 1000px;
+  margin: 176px auto 98px auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -43,6 +42,10 @@ body {
   margin-right: 160px;
   margin-left: 160px;
   border-radius: 100%;
+}
+
+.container-top img:hover {
+  transform: scale(1.2);
 }
 
 .links-left {
@@ -201,8 +204,18 @@ section .inform-contato {
   cursor: pointer;
   font-weight: 600;
   font-size: 13px;
-  width: 212px;
-  height: 27px;
+  width: 270px;
+  height: 31px;
+  padding: 10px 10px;
+}
+
+.btn-amarelo-1 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.btn-amarelo-1:hover {
+  transform: scale(1.2);
 }
 
 .text-label-p {
@@ -389,7 +402,7 @@ footer {
   width: 100%;
   max-width: 900px;
   margin: auto;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .copyright {
