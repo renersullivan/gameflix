@@ -21,11 +21,6 @@ body {
   }
 }
 
-.container-geral {
-  height: 750px;
-  min-width: 600px;
-}
-
 .container-top {
   max-width: 1000px;
   margin: 176px auto 98px auto;
