@@ -13,11 +13,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
   body,
   section {
     width: 100%;
     justify-content: center;
-    display: block;
     overflow: hidden;
   }
 }
