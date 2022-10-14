@@ -12,20 +12,6 @@ body {
   background: url("./imagens/bg-repeat.png") repeat;
 }
 
-@media only screen and (max-width: 523px) {
-  html,
-  body,
-  .container-top,
-  section {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    padding: 4px;
- 
-  }
-}
-
 .container-top {
   max-width: 1000px;
   margin: 176px auto 98px auto;
@@ -141,7 +127,7 @@ section .inform-contato {
 .work:hover .text-label {
   opacity: 1;
   transition: all 0.3s;
-  top: 380px;
+  top: 300px;
 }
 
 .work:hover .btn-amarelo {
@@ -407,5 +393,33 @@ footer {
 .copyright {
   color: #535151;
   font-size: 13px;
-  margin: 20px 0 0;
+  margin: 20px 0 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .links-right {
+    display: none;
+  }
+  .links-left {
+    display: none;
+  }
+  .container-top {
+    justify-content: center;
+  }
+  .container-geral {
+    padding: 20px;
+  }
+  section {
+    overflow: hidden;
+  }
+  .link a {
+    font-size: 13px;
+  }
+  .link p {
+    display: none;
+  }
+
+  .informacao-rodape {
+    flex-direction: column;
+  }
 }
