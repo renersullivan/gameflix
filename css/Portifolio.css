@@ -258,7 +258,7 @@ section .inform-contato {
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 900px;
+  max-width: 87%;
   margin: auto;
   word-wrap: break-word;
 }
