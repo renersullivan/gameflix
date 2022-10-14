@@ -252,6 +252,7 @@ section .inform-contato {
 
 .sobre p {
   text-align: left;
+  margin-right: 25px;
 }
 
 .informacao-rodape {
